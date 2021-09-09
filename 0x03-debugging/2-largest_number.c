@@ -20,6 +20,10 @@ int largest_number(int a, int b, int c)
 	{
 		largest = b;
 	}
+	else if (a == b == c)
+	{
+		printf("numbers are equal");
+	}
 	else
 	{
 		largest = c;
