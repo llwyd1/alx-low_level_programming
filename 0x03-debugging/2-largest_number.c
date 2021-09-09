@@ -20,6 +20,22 @@ int largest_number(int a, int b, int c)
 	{
 		largest = b;
 	}
+	else if (a == b == c)
+	{
+		printf("All numbers are equal");
+	}
+	else if (a == b && b > c)
+	{
+		printf("two numbers are equal and greater than third number");
+	}
+	else if (a == c > b)
+	{
+		printf("two numbers are equal and greater than third number");
+	}
+	else if (b == c && c > a)
+	{
+		printf("two numbers are equal and greater than third number");
+	}
 	else
 	{
 		largest = c;
