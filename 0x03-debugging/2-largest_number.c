@@ -22,23 +22,24 @@ int largest_number(int a, int b, int c)
 	}
 	else if (a == b && b == c)
 	{
-		printf("numbers are equal");
+		largest = a;
 	}
 	else if (a == b && b > c)
 	{
-		printf("two numbers are equal and greater than third number");
+		largest = a;
 	}
 	else if (a == c && c > b)
 	{
-		printf("two numbers are equal and greater than third number");
+		largest = a;
 	}
 	else if (b == c && b > a)
 	{
-		printf("two numbers equal and greater than third number");
+		largest = b;
 	}
-	else if (c > a && c > b)
+	else
 	{
 		largest = c;
 	}
+
 	return (largest);
 }
