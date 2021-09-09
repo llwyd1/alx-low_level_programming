@@ -36,10 +36,9 @@ int largest_number(int a, int b, int c)
 	{
 		printf("two numbers equal and greater than third number");
 	}
-	else
+	else if (c > a && c > b)
 	{
 		largest = c;
 	}
-
 	return (largest);
 }
