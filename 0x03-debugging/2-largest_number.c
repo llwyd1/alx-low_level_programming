@@ -24,6 +24,10 @@ int largest_number(int a, int b, int c)
 	{
 		printf("numbers are equal");
 	}
+	else if (a == b && b > c)
+	{
+		printf("two numbers are equal and greater than third number")
+	}
 	else
 	{
 		largest = c;
