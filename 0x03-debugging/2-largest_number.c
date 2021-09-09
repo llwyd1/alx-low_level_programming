@@ -26,7 +26,7 @@ int largest_number(int a, int b, int c)
 	}
 	else if (a == b && b > c)
 	{
-		printf("two numbers are equal and greater than third number")
+		printf("two numbers are equal and greater than third number");
 	}
 	else
 	{
