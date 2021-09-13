@@ -2,9 +2,9 @@
 
 /**
  *main - prints  numbers from 1 to 100, followed by a new line
- *but for multiples of 3 prints Fizz and for multiples of 5 prints Buzz
+ * but for multiples of 3 prints Fizz and for multiples of 5 prints Buzz
  * and for multiples of both 3 and 5 prints FizzBuzz
- *return: Always 0 (success)
+ * Return: Always 0 (success)
  */
 int main(void)
 {
