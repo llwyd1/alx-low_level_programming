@@ -1,0 +1,1 @@
+**This directory contains files for 0x06-pointers_and_arrays_strings project**
