@@ -2,7 +2,7 @@
 
 /**
  * main - prints all possible different combinations of three digits
- * Return: o if exited properly, otherwise non-zero
+ * Return: 0 if exited properly, otherwise non-zero
  */
 int main(void)
 {
@@ -14,7 +14,7 @@ int main(void)
 		{
 			for (c = 50; c < 58; c++)
 			{
-				if (l > b && b > n)
+				if (c > b && b > a)
 				{
 					putchar(a);
 					putchar(b);
