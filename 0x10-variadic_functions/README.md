@@ -3,3 +3,5 @@
 File variadic_functions.h is the header file that contains all function prototypes.<br>
 
 File 0-sum_them_all.c is a function that sums all parameters passed to it. <br>
+
+File 1-print_numbers.c is a function that prints numbers followed by a newline. <br>
