@@ -6,3 +6,4 @@ File main.h is a header file which contains all function prototypes. <br>
 
 File 1-print_binary.c is a function that prints the binary representation of a decimal number <br>
 
+File 2-get_bit.c is a function that returns the bit at a given index of a decimal number <br>
