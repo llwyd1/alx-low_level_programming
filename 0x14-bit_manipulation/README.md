@@ -9,3 +9,5 @@ File 1-print_binary.c is a function that prints the binary representation of a d
 File 2-get_bit.c is a function that returns the bit at a given index of a decimal number <br>
 
 File 3-set_bit.c is a function that sets the value of a bit to 1 at a given index <br>
+
+File 4-clear_bit.c is a function that sets the value of a bit to 0 at a given index <br>
