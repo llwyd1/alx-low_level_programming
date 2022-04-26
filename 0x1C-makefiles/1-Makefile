@@ -1,5 +1,5 @@
 CC=gcc
-SRC=.c
+SRC=$(wildcard src/*.c)
 
 all: main.c school.c
 	gcc main.c school.c -o school
