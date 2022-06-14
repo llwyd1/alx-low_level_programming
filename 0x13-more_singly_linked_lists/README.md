@@ -16,3 +16,5 @@ File 6-pop_listint.c - is a function that deletes the head node of a listint_t l
 
 File 7-get_nodeint.c - is a function that returns the nth node of a listint_t linked list <br>
 
+File 8-sum_listint.c - is a function that return the sum of all the data(n) of a listint_t linked list <br>
+
