@@ -11,3 +11,5 @@ File 3-add_nodeint_end - is a function that adds a node at the end of a listint_
 File 4-free_listint.c - is a funtion that frees listint_t list <br>
 
 File 5-free_listint2.c - is a function that frees a listint_t list and sets head to NULL <br>
+
+File 6-pop_listint.c - is a function that deletes the head node of a listint_t linked list, and returns the head node's data(n) <br>
