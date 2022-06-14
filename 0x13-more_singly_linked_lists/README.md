@@ -18,3 +18,4 @@ File 7-get_nodeint.c - is a function that returns the nth node of a listint_t li
 
 File 8-sum_listint.c - is a function that return the sum of all the data(n) of a listint_t linked list <br>
 
+File 9-insert_nodeint.c - is a function that inserts a new node at a given position <br>
