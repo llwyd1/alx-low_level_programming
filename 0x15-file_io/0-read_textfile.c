@@ -6,7 +6,7 @@
  * @filename: the name of the file
  * @letters: number of letters it should read and print
  *
- * Return: number of letters it could read and print, or NULL
+ * Return: number of letters it could read and print, or 0
  **/
 ssize_t read_textfile(const char *filename, size_t letters)
 {
@@ -22,7 +22,6 @@ ssize_t read_textfile(const char *filename, size_t letters)
 		return (0);
 
 	buffer = malloc(sizeof(char) * letters);
-
 	if (!buffer)
 		return (0);
 
@@ -36,7 +35,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 
 	close(fd);
 
-	w = write(1, buffer, r);
+	w = write(STDOUT_FILENO, buffer, r);
 	if (w < 0)
 	{
 		free(buffer);
