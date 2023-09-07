@@ -1,1 +1,0 @@
-**This directory contains files for C-argc, argv project**
