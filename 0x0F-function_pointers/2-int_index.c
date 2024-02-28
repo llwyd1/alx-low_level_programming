@@ -4,6 +4,7 @@
  * int_index - searches for an integer
  * @array: array to search from
  * @size: size of the array
+ * @cmp: pointer to the function to be used to compare values
  * Return: index of the first element the integer occurs
  */
 int int_index(int *array, int size, int (cmp)(int))
